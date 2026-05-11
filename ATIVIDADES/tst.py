@@ -1,3 +1,1 @@
-a = int(input(''))
-
-print(a)
+# Arquivo de testes
