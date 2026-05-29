@@ -5,19 +5,21 @@ e depois da multiplica•ção.'''
 matriz = []
 
 for i in range(3):
-    linha = list(map(int, input().split()))
+    linha = []
+    for j in range(3):
+        linha.append(int(input("Digite um valor: ")))
     matriz.append(linha)
 
-k = int(input())
+k = int(input("Digite k: "))
 
 print("Matriz antes:")
-for linha in matriz:
-    print(linha)
+for i in range(3):
+    print(matriz[i])
 
 matriz[0][0] = matriz[0][0] * k
 matriz[1][1] = matriz[1][1] * k
 matriz[2][2] = matriz[2][2] * k
 
 print("Matriz depois:")
-for linha in matriz:
-    print(linha)
+for i in range(3):
+    print(matriz[i])
