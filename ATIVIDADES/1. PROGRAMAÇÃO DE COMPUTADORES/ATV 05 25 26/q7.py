@@ -1,3 +1,5 @@
+# Leitura de Contato em Arquivo TXT
+
 nome_arquivo = input("Informe o nome do arquivo a ser lido: ")
 
 if not nome_arquivo.endswith(".txt"):

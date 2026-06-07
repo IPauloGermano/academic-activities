@@ -1,3 +1,5 @@
+# Calculadora Simples com Funções
+
 def calculadora(num1, num2, operador):
     if operador == "+":
         return num1 + num2

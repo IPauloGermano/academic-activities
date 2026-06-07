@@ -1,3 +1,5 @@
+#  Validador de Senha com Regras Personalizadas
+
 def senha_valida(senha):
     senha_maiuscula = senha.upper()
 

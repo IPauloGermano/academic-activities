@@ -1,4 +1,4 @@
-# MENU
+# Menu Interativo de Operações com Listas
 while True:
     print("1 - Maior/Menor 2 - Pares/Ímpares 3 - Busca 4 - Remoção 5 - Contagem 6 - Listas 7 - Produtos"\
     " 8 - Ordem/Contagem 0 - Sair")

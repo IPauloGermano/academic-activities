@@ -1,4 +1,5 @@
 # 1. Crie um programa que receba uma palavra e mostre quantas vogais existem nela.
+
 p = input('Digite uma palavra: ').lower() 
 # Recebe uma palavra e converte suas letras para minúsculas.
 

@@ -1,3 +1,5 @@
+# Cálculo do Perímetro de um Retângulo
+
 def calcular_perimetro(largura, comprimento):
     return (2 * largura) + (2 * comprimento)
 
